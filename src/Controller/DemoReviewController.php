@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Messenger\MessageBusInterface;
 use Symfony\Component\Routing\Attribute\Route;
 
-final class ReviewController extends AbstractController
+final class DemoReviewController extends AbstractController
 {
     public function __construct(
         private MessageBusInterface $bus,
@@ -21,7 +21,7 @@ final class ReviewController extends AbstractController
     )
     {
     }
-    #[Route('/review', name: 'app_review')]
+    #[Route('/demo/review', name: 'app_demo_review')]
     public function index(): JsonResponse
     {
         $provider = $this->registry->get('file');
