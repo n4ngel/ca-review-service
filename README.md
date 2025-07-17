@@ -44,6 +44,8 @@ As mentioned above, some optimization is done on the database. That could be of 
 I think that the design which introduces the Messenger component and its workers opens a good possibility for horizontal scaling, and provides good performance by default. 
 The solution contains pluggable ProviderRegistry based on the 'tagged services' Symfony feature, and makes adding new data providers to the equasion pretty straight forward. It is in place in code.
 
+**Important note on the topic** The provider directory only contains file based provider (there for development reasons), since the real world external provider implementation is considered abstract. This provider is auto loaded to the provider registry, and can be initiated by the DemoReviewController directly.  
+
 ### Missing stuff due to time limitation (that I wish I had done)
 - Symfony Scheduler compoment for scheduling message sending (scheduling is done only as a small deamon in the Make file for simplicity reasons)
 - Functional tests
