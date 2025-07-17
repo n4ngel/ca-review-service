@@ -1,0 +1,41 @@
+{
+    "review_list": [
+        {
+            "review_id": "1001",
+            "status": "published",
+            "platform": "booking.com",
+            "hotel_id": "B123",
+            "guest_name": "Alice Smith",
+            "submitted_at": "2024-05-28T10:15:00Z",
+            "content": "Wonderful stay, very friendly staff and clean rooms.",
+            "rating": 4,
+            "language": "en",
+            "responses": [
+                {
+                    "response_id": "R2003",
+                    "responder": "hotel_manager",
+                    "replied_at": "2024-06-05T09:00:00Z",
+                    "content": "Thank you, Alice! We hope to welcome you back soon."
+                },
+                {
+                    "response_id": "R2004",
+                    "responder": "ai_reply",
+                    "replied_at": "2024-06-05T10:30:00Z",
+                    "content": "We're thrilled you enjoyed our staff and cleanliness!"
+                }
+            ]
+        },
+        {
+            "review_id": "1005",
+            "status": "published",
+            "platform": "google",
+            "hotel_id": "B456",
+            "guest_name": "Eva Rossi",
+            "submitted_at": "2024-06-06T08:20:00Z",
+            "content": "Loved the rooftop pool and breakfast. Will come back!",
+            "rating": 5,
+            "language": "it",
+            "responses": []
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "review_list": [
+        {
+            "review_id": "1001",
+            "status": "published",
+            "platform": "booking.com",
+            "hotel_id": "B123",
+            "guest_name": "Alice Smith",
+            "submitted_at": "2025-05-28T10:15:00Z",
+            "content": "Wonderful stay, very friendly staff and clean rooms.",
+            "rating": 5,
+            "language": "en",
+            "responses": [
+                {
+                    "response_id": "R2001",
+                    "responder": "hotel_manager",
+                    "replied_at": "2025-05-28T15:00:00Z",
+                    "content": "Thank you Alice! We're glad you enjoyed your stay."
+                }
+            ]
+        },
+        {
+            "review_id": "1002",
+            "status": "draft",
+            "platform": "tripadvisor",
+            "hotel_id": "B123",
+            "guest_name": "Bob Müller",
+            "submitted_at": "2025-05-29T11:20:00Z",
+            "content": "Good location but noisy street.",
+            "rating": 3,
+            "language": "en",
+            "responses": []
+        },
+        {
+            "review_id": "1003",
+            "status": "published",
+            "platform": "booking.com",
+            "hotel_id": "B456",
+            "guest_name": "Charlotte Li",
+            "submitted_at": "2025-06-01T17:45:00Z",
+            "content": "Average breakfast but great view from the room.",
+            "rating": 4,
+            "language": "en",
+            "responses": []
+        }
+    ]
+}

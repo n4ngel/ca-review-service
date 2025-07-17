@@ -1,0 +1,54 @@
+{
+    "review_list": [
+        {
+            "review_id": "1001",
+            "status": "published",
+            "platform": "booking.com",
+            "hotel_id": "B123",
+            "guest_name": "Alice Smith",
+            "submitted_at": "2025-05-28T10:15:00Z",
+            "content": "Wonderful stay, very friendly staff and clean rooms.",
+            "rating": 5,
+            "language": "en",
+            "responses": [
+                {
+                    "response_id": "R2001",
+                    "responder": "hotel_manager",
+                    "replied_at": "2024-05-28T15:00:00Z",
+                    "content": "Thank you Alice! We're glad you enjoyed your stay."
+                }
+            ]
+        },
+        {
+            "review_id": "1003",
+            "status": "published",
+            "platform": "booking.com",
+            "hotel_id": "B456",
+            "guest_name": "Charlotte Li",
+            "submitted_at": "2024-06-01T17:45:00Z",
+            "content": "Average breakfast but great view from the room.",
+            "rating": 4,
+            "language": "en",
+            "responses": [
+                {
+                    "response_id": "R2002",
+                    "responder": "ai_reply",
+                    "replied_at": "2024-06-02T09:30:00Z",
+                    "content": "Thank you for your feedback! We are working to improve breakfast."
+                }
+            ]
+        },
+        {
+            "review_id": "1004",
+            "status": "removed",
+            "platform": "tripadvisor",
+            "hotel_id": "B789",
+            "guest_name": "Dieter Schmitt",
+            "submitted_at": "2024-06-02T12:00:00Z",
+            "content": "Rooms were small and the wifi was slow.",
+            "rating": 2,
+            "language": "de",
+            "responses": []
+        }
+    ]
+}
